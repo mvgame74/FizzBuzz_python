@@ -1,4 +1,6 @@
 
 def is_divisible_by_three(number):
-     return True
-   
+  if number % 3 == 0:
+    return True
+  else:
+    return False
